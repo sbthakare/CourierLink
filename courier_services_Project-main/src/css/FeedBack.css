@@ -1,0 +1,98 @@
+
+.Appli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .feedcont {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+  }
+  
+ #feedtitle {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  #feedform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feedsection{
+     border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  #feedsubtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  #flabel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  #feedinput{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+
+  #feedselect{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  #feedtextarea {
+    resize: none;
+    height: 80px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+.ratinggroup {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+#fbtn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+ #fbtn:hover {
+    background-color: #0056b3;
+  }
+  

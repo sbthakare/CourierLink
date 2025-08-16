@@ -1,0 +1,159 @@
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.glass-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-picture-container {
+  position: relative;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.input-label {
+  font-weight: bold;
+  color: #424242;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  
+
+
+
+
+
+
+.order-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Heading */
+.order-container h2 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.search-input {
+  border: 2px solid #34495e;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.search-input:focus {
+  border-color: #2980b9;
+  box-shadow: 0px 0px 8px rgba(41, 128, 185, 0.5);
+}
+
+.order-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.order-table thead {
+  background: black;
+  color: orange;
+}
+
+.order-table tbody tr {
+  transition: 0.3s;
+}
+
+.order-table tbody tr:hover {
+  background: rgba(255, 165, 0, 0.2);
+}
+
+.fade-effect {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cancel-btn {
+  transition: 0.3s;
+}
+
+.cancel-btn:hover {
+  background: red;
+  transform: scale(1.05);
+}
+
+.no-orders {
+  font-weight: bold;
+  color: #c0392b;
+}

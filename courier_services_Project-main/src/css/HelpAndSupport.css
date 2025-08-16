@@ -1,0 +1,158 @@
+.allh{
+    background-color: orange;
+    display:flex;
+    justify-content: center;
+    height: 100vh auto;
+}
+
+.Appli{
+    background-color: gray;
+}
+.margethis{
+    width:600px;
+    border-radius: 10px; 
+    background: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 80%; 
+    max-width: 800px; 
+    padding: 20px;
+    margin: auto;
+}
+
+.hsbtn1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:  auto 20px;
+  }
+  
+ 
+  .hsbtn1:hover {
+    background-color: #0056b3;
+  }
+  
+  .hsbtn1:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); 
+  }
+  .hsbtn2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:  auto 20px;
+
+  }
+  
+ 
+  .hsbtn2:hover {
+    background-color: #0056b3;
+  }
+  
+  .hsbtn2:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); 
+  }
+
+  .hsbtn3 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #ffffff; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:  auto 20px;
+
+  }
+  
+ 
+  .hsbtn3:hover {
+    background-color: #0056b3;
+  }
+  
+  .hsbtn3:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); 
+  }
+
+
+/* Contact form */
+
+.contactForm {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  /* background:linear-gradient(140deg,darkgray,gray); */
+  background:linear-gradient(180deg,black,black);
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cformlabel {
+  font-size: 16px;
+  font-weight: 600;
+  /* color: #333; */
+  color:white;
+}
+
+.cforminput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+.cformtextarea{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+.cforminput:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+.cformtextarea:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+.cformtextarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.contactfbtn {
+  padding: 12px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactfbtn:hover {
+  background-color: #0056b3;
+}

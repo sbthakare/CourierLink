@@ -1,0 +1,99 @@
+.Parenttracking{
+    height: 100vh;
+    border:5px solid white;
+    border: hidden;
+    background:linear-gradient(120deg,#DDD,#DDD)
+  
+}
+.CourierTrackingc {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.Cttitle {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.trackingidinput {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.trackingbtn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.trackingbtn:hover {
+    background-color: #0056b3;
+}
+
+.trackingloading {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.trackingerror {
+    color: red;
+    margin-top: 10px;
+   
+}
+
+.trackingdetails {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color:black;
+    background: #FFF;
+}
+
+.trdtitle {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+    .Cttitle {
+        font-size: 30px;
+    }
+
+    .trackingidinput, .trackingbtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Cttitle {
+        font-size: 25px;
+    }
+
+    .trackingidinput {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .trackingbtn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .trackingdetails {
+        font-size: 14px;
+    }
+}

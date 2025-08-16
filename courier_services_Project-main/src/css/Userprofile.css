@@ -1,0 +1,166 @@
+.profile-text {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .uprofile {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color:white;
+  }
+  
+  .uprof {
+   
+    padding: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    background-color:white;
+  }
+  
+  .up {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .save-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #1976D2;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935;
+  }
+  
+  .input-field:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+
+  .updatedate{
+    background-color: orange;
+    padding:50px
+  }
+
+.thisisclass{
+  background-color: orange;
+  height: 100vh;
+}
+
+
+/* this is view history page */
+.viewhistoryrow{
+  background-color: orange;
+  height: 100vh;
+}
+  .history-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 1000px;
+    margin: auto;
+    background-color:gray;
+  }
+  
+  table {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .thead-dark {
+    background:black;
+    color: white;
+  }
+  
+  .badge {
+    font-size: 0.9em;
+  }
+  
+  .badge-success {
+    background-color: #4caf50;
+  }
+  
+  .badge-warning {
+    background-color: #ff9800;
+  }
+  
+  .badge-danger {
+    background-color: #f44336;
+  }
+
+  
+
+    
+  #use{
+    background-color: orange;
+  }
+  .uath{
+    background-color: black;
+  }
+
+
+.userprofilecontainer{
+  padding: 50px;
+  background-color: orange;
+  height: 100vh;
+}

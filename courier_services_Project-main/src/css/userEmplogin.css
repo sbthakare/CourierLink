@@ -1,0 +1,136 @@
+#adminlogin2{
+    text-align: center;
+    border-radius: 15%;
+    color:black;
+    border:3px solid black;
+    width:500px;
+    height:400px;
+    align-items: center;
+    margin: auto;
+    padding:40px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+  border:hidden;
+
+}
+#adminlogin2::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:whitesmoke;
+    filter: blur(30px);
+    z-index: -1;
+}
+.adminlogin2parent{
+    border:5px solid  red;
+    border:hidden;
+    width: 100%; 
+    height:100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+}
+#ainput{
+    color:white;
+    background-color:black;
+    width:230px;
+    height:35px;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-color:black;
+    border: hidden;
+}
+#ainput:focus{
+    color:black;
+    background:linear-gradient(120deg,gray,whitesmoke);
+}
+#adminlogin2btn{
+    width:90px;
+    height:30px;
+    border-radius:24%;
+    background-color:gray; 
+}
+
+
+
+/* employee login page */
+
+#employeelogin2{
+    text-align: center;
+    border-radius: 15%;
+    color:black;
+    border:3px solid black;
+    width:300px;
+    height:300px;
+    align-items: center;
+    margin: auto;
+    padding:40px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+  border:hidden;
+ 
+}
+#employeelogin2::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:aqua;
+    filter: blur(30px);
+    z-index: -1;
+}
+.employeelogin2parent{
+    border:5px solid  red;
+    border:hidden;
+    width: 100%; 
+    height:100vh;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+}
+#einput{
+    color:white;
+    background-color:black;
+    width:230px;
+    height:35px;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-color:black;
+    border: hidden;
+}
+#einput:focus{
+    color:black;
+    background:linear-gradient(120deg,gray,whitesmoke);
+}
+#employeelogin2btn{
+    width:90px;
+    height:30px;
+    border-radius:24%;
+    background-color:gray; 
+}
+
+
+
+
+
+
+
+
+

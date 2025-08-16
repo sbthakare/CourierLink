@@ -1,0 +1,417 @@
+
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+   
+
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .userhomeslidlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .uslists{
+    margin: 15px 0;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .uslists:hover {
+    color:black;
+    background-color: aqua;
+  }
+  
+  /* Main Content */
+  .userhomemain {
+    width: 80%;
+    padding: 20px;
+    background: orange;
+    overflow-y: auto;
+ 
+  }
+  
+ 
+  .uhmcontents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .uhmtitle{
+    font-size: 24px;
+    margin: 0;
+ 
+  }
+  
+  .usidetitle{
+    display: flex;
+  }
+  
+  .sidetinput {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .uhmsbtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    /* color:black; */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .uhmsbtn:hover {
+    background-color: black;
+  }
+  
+  
+  
+   .uhcards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+  .uhcard1{
+   width:23%;
+   background-color: #e0e0e0;
+   border-radius: 5px;
+   text-align: center;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+   padding: 15px;
+   
+  }
+  .uhcard2{
+    width:23%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+   }
+   .uhcard3{
+    width:23%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+   }
+   .uhcard4{
+    width:23%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+   }
+   .ctitle{
+    font-size: 18px;
+   }
+   .cvalue{
+    font-size: 23px;
+    font-weight: bold;
+   }
+  
+  
+  
+  
+  .userhomebtnsofun{
+    width:55%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+   
+  }
+
+  .userfbtn1{
+    position: relative;
+    border-radius: 5px;
+    width: 150px;
+    height: 43px;
+    /* color:white; */
+    color:white;
+    border: hidden;
+    overflow: hidden;
+  /* background-color: #007bff; */
+  background-color: black;
+  z-index: 1;
+  }
+
+.userfbtn1::before{
+  content:'';
+  position: absolute;
+  top:100%;
+  left:0;
+  width: 100%;
+  height: 100%;
+  color:black;
+  background-color: wheat;
+  transition: top 0.3s ease;
+  z-index: -1;
+}
+.userfbtn1:hover::before{
+  top:0;
+
+}
+.userfbtn1:hover{
+  color:black;
+  position:relative;
+  z-index: 1;
+}
+
+
+  .userfbtn2 {
+    position: relative;
+    border-radius: 5px;
+    width: 150px;
+    height: 43px;
+    color: white;
+    border: none;
+    overflow: hidden;
+    background-color: red;
+    z-index: 1;
+    transition: color 10s ease-in-out;
+}
+
+.userfbtn2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-color: black;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.userfbtn2:hover::before {
+    width: 0%;
+    height: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(1deg);
+}
+
+.userfbtn2:hover {
+    color: black;
+}
+
+  .userfbtn3{
+    position: relative;
+    border-radius: 5px;
+    width: 150px;
+    height: 43px;
+    color:white;
+    border: hidden;
+    background-color:yellow;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .userfbtn3::before{
+    content:'';
+    top:0%;
+    left: 0%;
+    width: 200%;
+    height: 200%;
+    background-color: black;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    transform: translate(0,0);
+    z-index: -1;
+  }
+  .userfbtn3:hover::before{
+    width: 0;
+    height:0;
+    top:50%;
+    bottom: 50%;
+    z-index: -1;
+    transform: translate(50%,0);
+  }
+  .userfbtn3:hover {
+    color: black;
+  }
+  .userfbtn4{
+    border-radius: 5px;
+    width: 150px;
+    height: 43px;
+    color:white;
+  border: hidden;
+  /* background-color: #007bff; */
+  /* background-color:rgb(97, 71, 22); */
+  background-color: black;
+
+  }
+
+
+  .userfbtn4:hover{
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
+  
+  
+  .userhorderstable {
+    margin-bottom: 20px;
+  }
+  
+  .uottitle{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .uotable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  
+  .uoth{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  .uotd{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  .uoth{
+    background-color: black;
+    color:orange;
+  }
+  .uotd{
+    background-color: #f4f4f4;
+  }
+  .uotbtn1{
+   background-color: #007bff; 
+   padding: 7px 10px;
+   margin-right: 15px;
+ 
+   border: none;
+ 
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+    }
+  .uotbtn{
+    padding: 7px 10px;
+    margin-right: 15px;
+  
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+  .uotbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .uctraking {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .ucttitle{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .ucmap {
+    background-color: #ddd;
+    height: 200px;
+    border-radius: 5px;
+    line-height: 200px;
+    font-size: 16px;
+    color: #555;
+  }
+
+
+
+
+
+
+
+#actusercont{
+  background-color: orange;
+  border-radius: 10px;
+}
+#ordcompletemp{
+  background-color: orange;
+  border-radius: 10px;
+}
+
+
+
+.dashboard {
+  display: flex;
+  /* height: 100vh; */
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1; 
+  padding: 20px;
+  background: orange;
+  overflow-y: hidden;
+  height: auto;
+}
+
+/* Main content container */
+.userhomemain {
+  width: 100%;
+  padding: 20px;
+  background: orange;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.dashboard {
+  display: flex;
+  
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+

@@ -1,0 +1,291 @@
+.ok {
+  max-width: 1200px;
+  margin: 1px 5px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+ 
+}
+
+.courierbookrow {
+  width: 100%;
+  background-color: orange;
+}
+
+#title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+#cform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#tabl {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+#tablehead {
+  background-color: black;
+  height: 40px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#tablerow {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#tdataname {
+  padding: 6px;
+  vertical-align: middle;
+  
+}
+
+.tbodyrowss {
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 8px;
+}
+
+#tablebody td {
+  padding: 8px;
+  font-size: 15px;
+}
+
+#inputt {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+#inputt:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+}
+
+#lastrow {
+  display: flex;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin: auto;
+}
+
+#lastrow:hover {
+  background-color: #45a049;
+}
+
+#lastbtn1 {
+  display: inline-block;
+  margin-right: auto;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 180px;
+}
+
+#lastbtn11, #lastbtn22 {
+  text-align: center;
+}
+
+#lastbtn1:hover {
+  background-color: #45a049;
+}
+
+#lastbtn2 {
+  display: inline-block;
+  margin-left: auto;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 180px;
+}
+
+#lastbtn2:hover {
+  background-color: #d32f2f;
+}
+
+hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+.billbackground {
+  background-color: orange;
+  padding: 10px;
+  min-height: 100vh;
+  padding-bottom: 300px;
+}
+
+.rowww {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text {
+  font-size:31px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.billbox {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.bill {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.billdata {
+  margin: 10px 0;
+  font-weight: bold;
+  color:black;
+}
+
+#paybutton {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#paybutton:hover {
+  background-color: blue;
+}
+
+#paybutton:active {
+  background-color: green;
+} 
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+  .ok {
+      padding: 10px;
+  }
+
+  #title {
+      font-size: 18px;
+  }
+
+  #tabl {
+      font-size: 14px;
+  }
+
+  #tablerow {
+      font-size: 18px;
+  }
+
+  #inputt {
+      font-size: 14px;
+      padding: 8px;
+  }
+
+  #lastbtn1, #lastbtn2 {
+      width: 100%;
+  }
+
+  .billbox {
+      max-width: 100%;
+      padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #title {
+      font-size: 16px;
+  }
+
+  #tablerow {
+      font-size: 16px;
+  }
+
+  #text {
+      font-size: 24px;
+  }
+
+  #inputt {
+      font-size: 12px;
+      padding: 6px;
+  }
+
+  #paybutton {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .bill {
+      font-size: 14px;
+  }
+
+  .billbox {
+      padding: 12px;
+  }
+}
